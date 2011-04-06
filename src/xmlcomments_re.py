@@ -13,7 +13,7 @@ def parse(dir, comments_file):
     dir_list.sort()
 
     # Script is assumed to be in directory, so remove
-    dir_list.remove("xmlcomments.py")
+    dir_list.remove("xmlcomments_re.py")
 
     number_of_files = len(dir_list)    
     current_file = 0
